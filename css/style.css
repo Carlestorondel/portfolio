@@ -1,0 +1,271 @@
+@font-face {
+    src: url("../typography/Inter-Bold.ttf");
+    font-family: "Inter-Bold";
+}
+@font-face {
+    src: url("../typography/Inter-Regular.ttf");
+    font-family: "Inter-Regular";
+}
+
+@font-face {
+    src: url("../typography/Inter-Medium.ttf");
+    font-family: "Inter-Medium";
+}
+
+@font-face {
+    src: url("../typography/Inter-Light.ttf");
+    font-family: "Inter-Light";
+}
+
+@font-face {
+    src: url("../typography/Inter-Thin.ttf");
+    font-family: "Inter-Thin";
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1280;
+    margin: 0 auto;
+}
+
+
+.Logo {
+    font-family: "Inter-Bold";
+    letter-spacing: -0.065em;
+    font-size: 20px;
+    padding-top: 32px;
+    padding-left: 0px;
+    color: white;
+}
+
+.Nav-Bar {
+    font-family: "Inter-Bold";
+    letter-spacing: -0.065em;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 32px;
+    padding-right: 0px;
+    color: white;
+}
+
+.Nav-Bar a {
+    font-family: "Inter-Bold";
+    letter-spacing: -0.065em;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #2E2E2E;
+}
+
+.featured-block {
+    display: flex;
+    justify-content: center;
+}
+
+.negrita {
+    font-family: "Inter-Bold";
+    margin-left: 4px;
+}
+
+.featured-content h3 {
+    font-family: "Inter-Light";
+    letter-spacing: -0.065em;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#featured-content h3 {
+    font-family: "Inter-Bold";
+}
+
+
+.project-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-center {
+    z-index: 1;
+}
+
+.image-left img {
+    width: 32vw;
+    height: 27vw;
+    margin-right: -30px;
+}
+
+.image-center img {
+    width: 40vw;
+    height: 34vw;
+}
+
+.image-right img {
+    width: 32vw;
+    height: 27vw;
+    margin-left: -30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    .light-mode h3 {
+    font-family: "Inter-Light";
+    letter-spacing: -0.065em;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 32px;
+    padding-top: 75px;
+    color: white;
+}
+
+.project-name {
+    padding-right: 60px;
+}
+
+
+.project-name h3 {
+    font-family: "Inter-Light";
+   
+    letter-spacing: -0.065em;
+    font-size: 10px;
+    padding-left: 48px;
+    padding-top: 40px;
+    color: white;
+}
+
+.italic {
+    font-family: "Inter-Bold";
+    font-style: italic;
+    font-size: 18px;
+}
+
+.scroll {
+    display: flex;
+}
+
+.scroll h3 {
+    font-family: "Inter-Thin";
+    letter-spacing: -0.065em;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 75px;
+    padding-right: 10px;
+    color: white;
+}
+
+.scroll img {
+    width: 25px;
+    height: 20px;
+    padding-top: 70px;
+    padding-right: 35px;
+
+}
+
+.cursor {
+    cursor: url('../images/cursor.svg'), default;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 414px) {
+    .desktop {
+        display: none;
+    }
+
+    body {
+        margin: 16px;
+    }
+
+    .mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-photo img {
+        height: 50vw;
+        width: 50vw;      
+    }
+
+    .Nav-Bar {
+        font-size: 16px;
+        padding-top: 60px;
+    }
+
+    .Nav-Bar a {
+        font-size: 16px;
+    }
+
+    .Logo {
+        font-size: 20px;
+        padding-top: 57px;
+    }
+
+    .featured-block {
+        padding-left: 110px;
+    
+    }
+
+    .featured-content h3{
+        padding-top: 25px;
+        font-size: 14px;   
+    }
+
+    .Scroll-mobile {
+        padding-top: 60px;
+    }
+
+    .Scroll h3 {
+        color: white;
+        font-family: "Inter-Thin";
+        letter-spacing: -0.065em;
+        font-size: 12px;
+        padding-right: 100px;
+    }
+
+    .Scroll-img img {
+        padding-left: 6px;
+        padding-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+  
+
+
+  
+  
+ 

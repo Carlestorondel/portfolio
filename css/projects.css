@@ -1,0 +1,27 @@
+@font-face {
+    src: url("../typography/Inter-Bold.ttf");
+    font-family: "Inter-Bold";
+}
+@font-face {
+    src: url("../typography/Inter-Regular.ttf");
+    font-family: "Inter-Regular";
+}
+
+@font-face {
+    src: url("../typography/Inter-Medium.ttf");
+    font-family: "Inter-Medium";
+}
+
+@font-face {
+    src: url("../typography/Inter-Light.ttf");
+    font-family: "Inter-Light";
+}
+
+@font-face {
+    src: url("../typography/Inter-Thin.ttf");
+    font-family: "Inter-Thin";
+}
+
+.cursor {
+    cursor: url('../images/cursor.svg'), default;
+}
